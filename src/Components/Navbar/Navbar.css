@@ -5,9 +5,9 @@ body {
 .navbar{
     display:flex;
     justify-content: space-around;
-    padding:5px;
+    padding:8px;
     border-radius: 20px;
-    margin:16px;
+    margin:40px;
     
     background-color: rgba(255, 255, 255, 0.02);
 
@@ -17,8 +17,7 @@ body {
 
 .nav-logo{
     display: flex;
-    align-items: center;
-    gap:10px;
+    gap: 40px;
 
 }
 .nav-menu{
@@ -76,7 +75,7 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:-35px;
+    margin-top:-35px;
     margin-left:-55px;
     border-radius:11px;
     font-size:14px;
