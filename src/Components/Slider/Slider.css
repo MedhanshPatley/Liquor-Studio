@@ -1,0 +1,33 @@
+.slider {
+    position: relative;
+    width: 100%; /* Make the slider occupy the full width of its container */
+    max-width: 100%; /* Ensure the slider does not exceed the width of its container */
+    margin: 0 auto;
+  }
+  
+  .slider-image {
+    width: 100%; /* Make the image fill the entire width of the slider */
+    height: auto;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .prev-button {
+    left: 0;
+  }
+  
+  .next-button {
+    right: 0;
+  }
+  
