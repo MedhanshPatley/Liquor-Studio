@@ -12,7 +12,7 @@ const Slider = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextImage, 1000); 
+    const interval = setInterval(nextImage, 2000); 
     return () => clearInterval(interval);
   }, []);
 

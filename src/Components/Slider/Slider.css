@@ -1,12 +1,12 @@
 .slider {
     position: relative;
-    width: 100%; /* Make the slider occupy the full width of its container */
-    max-width: 100%; /* Ensure the slider does not exceed the width of its container */
+    width: 100%; 
+    max-width: 100%;
     margin: 0 auto;
   }
   
   .slider-image {
-    width: 100%; /* Make the image fill the entire width of the slider */
+    width: 100%; 
     height: auto;
   }
   

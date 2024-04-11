@@ -1,0 +1,25 @@
+.New_arrival{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:6px;
+    height: 90vh;
+    
+}
+.New_arrival h1{
+    color:white;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.New_arrival hr{
+    width:210px;
+    height: 6px;
+    border-radius: 10px;
+    background:#252525;
+}
+.new_arrival_item{
+    margin-top: 40px;
+    display: flex;
+    
+}

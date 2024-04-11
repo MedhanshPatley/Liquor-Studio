@@ -1,0 +1,39 @@
+.container{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+}
+
+.story{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    width: 80vw;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+}
+
+
+.story{
+    
+}
+.story1 p{
+
+font-weight: 400;
+font-size: 18px;
+margin:20px;
+
+
+
+
+color: #FFD700;
+
+}
+.story_img img{
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+
+}
