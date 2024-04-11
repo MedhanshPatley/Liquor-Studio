@@ -6,7 +6,7 @@
 
 .item p{
     margin: 6px 0px;
-    color:white
+    color:#FFD700
 
 }
 .item_prices{
@@ -15,7 +15,7 @@
 }
 .item_price_new{
 
-    color: white;
+    color: #FFD700;
     font-size: 18px;
     font-weight: 400;
 }
