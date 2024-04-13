@@ -1,0 +1,80 @@
+.loginsignup_img img{
+    height: 406px;
+    width: auto;
+    border-radius: 20px;
+}
+.loginsignup{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 300px;
+    width: 46vw;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding-top: 5px;
+}
+.loginsignup_container{
+    /* width: 95vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 29px;
+    /* justify-content: center; */
+
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid rgb(143, 143, 143);
+    background-color: black;
+    color: white;
+}
+
+.names{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.email-pass{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+p{
+    color: white;
+    font-size: 10px;
+}
+
+button{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #904F04;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 138px;
+    padding-right: 138px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.signup{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFD700;
+}
+
+.ask{
+    width: 360px;
+}
+.ask span{
+    color: #904F04;
+    font-weight: 600;
+}

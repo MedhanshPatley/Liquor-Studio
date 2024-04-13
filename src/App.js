@@ -11,6 +11,10 @@ import LoginSignUp from './Pages/LoginSignUp';
 import Cart from './Pages/Cart';
 import Footer from './Components/Footer/Footer';
 
+import vodka_banner from './Components/Assets/Slider_img02.jpg'
+import whiskey_banner from './Components/Assets/Slider_Img04.jpg'
+import wine_banner from './Components/Assets/Slider_img03.jpg'
+
 function App() {
   return (
     <div >
@@ -19,9 +23,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path ='/' element={<Home/>}/>
-        <Route path ='/wines' element={<Category category ="wines"/>}/>
-        <Route path ='/whiskey' element={<Category category ="whikey"/>}/>
-        <Route path ='/vodka' element={<Category category ="vodka"/>}/>
+        <Route path ='/wines' element={<Category banner={wine_banner} category ="wine"/>}/>
+        <Route path ='/whiskey' element={<Category banner={whiskey_banner} category ="whikey"/>}/>
+        <Route path ='/vodka' element={<Category banner={vodka_banner} category ="vodka"/>}/>
         <Route path ="/product" element ={<Product/>}>
           <Route path =":productId" element ={<Product/>}/>
         </Route>

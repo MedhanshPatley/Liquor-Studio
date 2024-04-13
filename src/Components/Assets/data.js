@@ -1,4 +1,4 @@
-import p1_img from './product_01.png'
+import p1_img from './product_1.png'
 import p2_img from './product_6.png'
 import p3_img from './product_12.png'
 // import p4_img from './product_4.png'
