@@ -2,8 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:6px;
+    gap:30px;
     height: 90vh;
+
+   
+   
     
 }
 .New_arrival h1{
@@ -21,5 +24,10 @@
 .new_arrival_item{
     margin-top: 40px;
     display: flex;
+    gap:100px;
+    
+    
     
 }
+
+

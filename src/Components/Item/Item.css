@@ -1,8 +1,11 @@
 .item{
     width:350px;
-   
+    border: 1px solid  #7a7a7a;
+    
 
+   
 }
+
 
 .item p{
     margin: 6px 0px;

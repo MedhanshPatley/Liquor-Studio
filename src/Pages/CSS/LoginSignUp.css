@@ -5,7 +5,7 @@
 }
 .loginsignup{
     display: flex;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
     align-items: center;
     /* justify-content: center; */
@@ -15,6 +15,7 @@
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
     padding-top: 5px;
+    margin-left: 450px;
 }
 .loginsignup_container{
     /* width: 95vw; */
@@ -28,7 +29,7 @@
 
 input{
     border-radius: 5px;
-    border: 1px solid rgb(143, 143, 143);
+    border: 1px solid rgba(143, 143, 143,0.2);
     background-color: black;
     color: white;
 }
@@ -50,7 +51,7 @@ p{
     font-size: 10px;
 }
 
-button{
+.loginsignup_container button{
     font-size: 12px;
     font-weight: 500;
     background-color: #904F04;
