@@ -20,9 +20,12 @@
     font-weight: 600;
 
 }
-.cartitem_format{
-    font-size: 17px;
-    font-weight: 500;
+.cartitem_format_main p{
+    font-size: 18px;
+}
+.cartitem_format p{
+    font-size: 18px;
+    font-weight: 600;
 }
 .carticon_product_icon{
     height: 80px;
@@ -52,12 +55,20 @@
     margin-right: 180px;
     gap:55px;
 }
-.cartitems_total_item{
+.cartitems_total p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartitems_total_item {
     display: flex;
     justify-content: space-between;
     padding: 15px 0px;
+   
 
-
+}
+.cartitems_total_item p{
+    font-size: 18px;
+    font-weight: 600;
 }
 .checkout{
     width: 260px;

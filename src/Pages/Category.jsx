@@ -20,6 +20,7 @@ const Category = (props) => {
 
         })}
       </div>
+      
         
     </div>
   )

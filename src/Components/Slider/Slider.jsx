@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Slider.css'; 
-import image1 from '../Assets/Slider_img01.jpg';
+import image1 from '../Assets/Slider_Img04.jpg';
 import image2 from '../Assets/Slider_img02.jpg';
 
 const Slider = () => {
