@@ -63,6 +63,7 @@ p{
     padding-right: 138px;
     padding-top: 8px;
     padding-bottom: 8px;
+    cursor: pointer;
 
 }
 
@@ -74,8 +75,10 @@ p{
 
 .ask{
     width: 360px;
+    
 }
 .ask span{
     color: #904F04;
     font-weight: 600;
+    cursor: pointer;
 }
