@@ -34,3 +34,23 @@ color: #FFD700;
     border-radius: 20px;
 
 }
+
+@media(max-width:1024px){
+    .container{
+        width:95vw;
+    }
+    .story{
+        /* width: 80vw; */
+        margin-top: -190px;
+
+    }
+    .story1 p{
+        margin:20px;
+        font-weight: 350;
+        font-size: 13px;
+    }
+    .story_img img{
+        width: auto;
+        height: 399px;
+    }
+}

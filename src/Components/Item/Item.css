@@ -13,7 +13,7 @@
 }
 .item img{
     justify-content: center;
-    width: 100%;
+    width: 280px;
     height:59vh;
 }
 
@@ -21,7 +21,7 @@
     margin: 6px 0px;
     color:#FFD700;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     
 
 
@@ -75,3 +75,23 @@
         cursor: pointer;
        
 }
+@media(max-width: 1024px){
+    .item{
+        width: 200px;
+        height: 34vh;
+        font-size: 13px;
+        
+        }
+    .item img{
+            width:220px;
+        }
+    .item_price_old{
+        font-size: 13px;
+    }
+    .item_price_new{
+        font-size: 13px;
+    }
+
+
+}
+ 

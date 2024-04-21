@@ -73,12 +73,12 @@ const LoginSignUp = () => {
         <p className='signup'>{state}</p>
           <div className="loginsignup_fields">
             <div className="names">
-              {state==='Sign Up'?<input name ='firstname'value ={formData.firstname} onChange={changeHandler}type="text" placeholder='First Name' />:<></>}
-             {state==="Sign Up"?<input name ="lastname" value ={formData.lastname} onChange={changeHandler}type="text" placeholder='Last Name' />:<></>} 
+              {state==='Sign Up'?<input name ='firstname'value ={formData.firstname} onChange={changeHandler}type="text" placeholder='First Name'className='firstname' />:<></>}
+             {state==="Sign Up"?<input name ="lastname" value ={formData.lastname} onChange={changeHandler}type="text" placeholder='Last Name' className='lastname' />:<></>} 
             </div>
             <div className="email-pass">
-              <input name="email" value ={formData.email} onChange={changeHandler} type="text" placeholder='Email' />
-              <input name ="password" value={formData.password} onChange={changeHandler}type="text" placeholder='Password' />
+              <input name="email" value ={formData.email} onChange={changeHandler} type="text" placeholder='Email' className='email'/>
+              <input name ="password" value={formData.password} onChange={changeHandler}type="text" placeholder='Password' className='password' />
             </div>
           </div>
         <button onClick={()=>{state==='Login'?login():signup()}}>Continue</button>

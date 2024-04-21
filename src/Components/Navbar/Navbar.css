@@ -18,6 +18,7 @@ body {
 .nav-logo{
     display:flex;
     gap: 10px;
+    width: 13vw;
 
 }
 .nav-menu{
@@ -82,4 +83,31 @@ body {
     background:red;
     color:white;
 
+}
+
+@media(max-width:1024px){
+    .navbar{
+        padding:10px 25px;
+    }
+    .nav-menu{
+        gap:40px;
+        font-size: 22px;
+    }
+    .nav-login-cart button{
+        width:100px;
+        height: 45px;
+        font-size: 22px;
+    }
+    .nav-login-cart img{
+        width:40px;
+
+    }
+    .nav-cart-count{
+        width:23px;
+        height: 23px;
+        
+    }
+    .nav-logo{
+        width: 18vw;
+    }
 }

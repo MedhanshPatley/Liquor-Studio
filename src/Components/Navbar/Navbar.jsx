@@ -3,18 +3,28 @@ import { useState } from 'react';
 import"./Navbar.css"
 import logo from '../Assets/Liquor Studio Logo.png'
 import cart_icon from '../Assets/cart_icon.png'
+import drop_down_icon from '../Assets/dropdown_icon.png'
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
+
+
 const Navbar = () => {
 
   const[menu,setmenu] = useState('Home');
   const {getTotalCartItems} = useContext(ShopContext);
+  // const menuRef =useRef();
+
+  // const dropdown_toggle =(e)=>{
+  //   menuRef.current.classlist.toggle('nav menu-visible')
+  //   e.target.classlist.toggle('open')
+  // }
 
   return (
     <div className='navbar'>
       <div className="nav-logo">
         <img src ={logo} alt =""/>
       </div>
+      {/* <img onClick ={dropdown_toggle}src={drop_down_icon} alt="" /> */}
         <ul className="nav-menu">
           <li onClick={()=>{setmenu('Home')}}><Link style={{textDecoration:"none", color: "white"}} to ='/'>Home</Link>{menu==='Home'?<hr/>:<></>}</li>
           <li onClick={()=>{setmenu('Whiskey')}}><Link style={{textDecoration:"none", color: "white"}} to ='/whiskey'>Whiskey</Link>{menu==='Whiskey'?<hr/>:<></>}</li>

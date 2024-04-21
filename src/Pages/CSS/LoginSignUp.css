@@ -9,7 +9,7 @@
     margin-bottom: 100px;
     align-items: center;
     /* justify-content: center; */
-    margin-left: 300px;
+   
     width: 46vw;
     height: 400px;
     background-color: rgb(0, 0, 0);
@@ -44,6 +44,19 @@ input{
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+.email {
+    width:300px;
+
+}
+.password{
+    width: 300px;
+}
+.firstname{
+    width:140px;
+}
+.lastname{
+    width:140px;
 }
 
 p{
@@ -81,4 +94,22 @@ p{
     color: #904F04;
     font-weight: 600;
     cursor: pointer;
+}
+
+@media(max-width:1024px) {
+    .loginsignup{
+        flex-direction: column;
+        margin-top: 300px;
+        margin-left: 200px;
+     
+        margin-bottom: 100px;
+        width: 60vw;
+        height: 800px;
+
+    }
+    .loginsignup_img img{
+        height: 460px;
+        width: 35vw;
+    }
+
 }
