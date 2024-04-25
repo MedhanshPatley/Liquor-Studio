@@ -10,12 +10,12 @@
     align-items: center;
     /* justify-content: center; */
    
-    width: 46vw;
-    height: 400px;
+    width: 50vw;
+    height: 410px;
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
     padding-top: 5px;
-    margin-left: 450px;
+    margin-left:370px;
 }
 .loginsignup_container{
     /* width: 95vw; */
