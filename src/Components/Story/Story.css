@@ -1,18 +1,23 @@
-.container{
-    width: 95vw;
+.container-story{
+    width: 80vw;
     display: flex;
     justify-content: center;
+    margin-left: 160px;
 }
 
 .story{
     display: flex;
     margin-top: 400px;
     margin-bottom: 100px;
+
+    
     align-items: center;
     width: 80vw;
     height: 400px;
-    background-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.014);
     border-radius: 20px;
+
+   
 }
 
 
@@ -32,16 +37,18 @@ color: #FFD700;
     height: 400px;
     width: auto;
     border-radius: 20px;
+   
 
 }
 
 @media(max-width:1024px){
-    .container{
-        width:95vw;
+    .container-story{
+        width:80vw;
     }
     .story{
-        /* width: 80vw; */
-        margin-top: -190px;
+       
+        margin-top: 250px;
+        margin-left: -100px;
 
     }
     .story1 p{
@@ -54,3 +61,5 @@ color: #FFD700;
         height: 399px;
     }
 }
+
+

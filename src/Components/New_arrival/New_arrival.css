@@ -4,6 +4,7 @@
     align-items: center;
     gap:30px;
     height: 90vh;
+    margin-bottom: 200px;
 
    
    
@@ -28,6 +29,29 @@
     
     
     
+}
+@media(max-width:1024px){
+    .new_arr{
+        color:#FFD700;
+        font-size: 30px;
+        font-weight: 500;
+    
+    }
+    .New_arrival hr{
+        width:200px;
+        
+        border-radius: 10px;
+        background:#252525;
+    }
+    .New_arrival{
+        
+        margin-bottom: -130px;
+    
+       
+       
+        
+    }
+
 }
 
 

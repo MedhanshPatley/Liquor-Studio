@@ -4,7 +4,7 @@ import story_img from '../Assets/Story.jpg'
 
 const Story = () => {
   return (
-    <div className='container'>
+    <div className='container-story'>
         <div className='story'>
         <div className="story1">
             <p>
@@ -21,3 +21,5 @@ const Story = () => {
 }
 
 export default Story
+
+

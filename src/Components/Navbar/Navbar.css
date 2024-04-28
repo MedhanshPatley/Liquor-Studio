@@ -1,24 +1,26 @@
 body {
-    background-color:#001F3F;
+   
+    background-color: rgb(16, 16, 16);
   }
 
 .navbar{
     display:flex;
     justify-content: space-around;
-    /* padding:10px; */
+
     border-radius: 20px;
     margin:20px;
     
-    background-color: rgba(255, 255, 255, 0.09);
+    background-color: rgba(255, 255, 255, 0);
 
 
-    /* box-shadow: 0 1px 8px -2px rgb(240, 240, 240); */
+  
 }
 
-.nav-logo{
+.nav-logo img{
     display:flex;
     gap: 10px;
-    width: 13vw;
+    width: 160px;
+    cursor: pointer;
 
 }
 .nav-menu{
@@ -91,23 +93,24 @@ body {
     }
     .nav-menu{
         gap:40px;
-        font-size: 22px;
+        font-size: 15px;
     }
     .nav-login-cart button{
         width:100px;
         height: 45px;
-        font-size: 22px;
+        font-size: 15px;
     }
     .nav-login-cart img{
-        width:40px;
+        width:30px;
 
     }
     .nav-cart-count{
-        width:23px;
-        height: 23px;
+        width:20px;
+        height: 20px;
         
     }
     .nav-logo{
-        width: 18vw;
+        width: 100px;
     }
 }
+

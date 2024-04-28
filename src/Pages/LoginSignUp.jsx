@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import loginsigup_img from '../Components/Assets/loginsignup.jpg'
 import './CSS/LoginSignUp.css'
+import bcrypt from 'bcryptjs'; // Import bcryptjs library
 
 
 const LoginSignUp = () => {
@@ -19,6 +20,7 @@ const LoginSignUp = () => {
 
   const login = async()=>{
     console.log('Login Function Executed',formData);
+    const hashedPassword = bcrypt.hashSync(formData.password, 10); // Hash the password
     let reaponseData;
     await fetch('http://localhost:4000/login',{
       method:'Post',
@@ -27,8 +29,7 @@ const LoginSignUp = () => {
         'Content-Type':'application/json',
 
       },
-      body:JSON.stringify(formData),
- 
+      body: JSON.stringify({ ...formData, password: hashedPassword }), // Send hashed password
     }).then((response)=>response.json()).then((data)=>reaponseData=data)
 
     if(reaponseData.success){
@@ -43,6 +44,7 @@ const LoginSignUp = () => {
 
   const signup = async()=>{
     console.log('Sign Up Function Executed',formData);
+    const hashedPassword = bcrypt.hashSync(formData.password, 10); // Hash the password
     let reaponseData;
     await fetch('http://localhost:4000/signup',{
       method:'Post',
@@ -51,7 +53,7 @@ const LoginSignUp = () => {
         'Content-Type':'application/json',
 
       },
-      body:JSON.stringify(formData),
+      body: JSON.stringify({ ...formData, password: hashedPassword }), // Send hashed password
  
     }).then((response)=>response.json()).then((data)=>reaponseData=data)
 
@@ -78,7 +80,7 @@ const LoginSignUp = () => {
             </div>
             <div className="email-pass">
               <input name="email" value ={formData.email} onChange={changeHandler} type="text" placeholder='Email' className='email'/>
-              <input name ="password" value={formData.password} onChange={changeHandler}type="text" placeholder='Password' className='password' />
+              <input name ="password" value={formData.password} onChange={changeHandler}type="password" placeholder='Password' className='password' />{/* Use type="password" for password fields */}
             </div>
           </div>
         <button onClick={()=>{state==='Login'?login():signup()}}>Continue</button>
